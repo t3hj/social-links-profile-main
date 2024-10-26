@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #1a1a1a;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Card container */
+        .profile-card {
+            background-color: #1f1f1f;
+            border-radius: 12px;
+            padding: 24px;
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+        }
+
+        /* Profile image */
+        .profile-image {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            margin: 0 auto 24px;
+            overflow: hidden;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Profile info */
+        .profile-name {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .profile-location {
+            color: #c2f277;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .profile-bio {
+            color: #bebebe;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        /* Social links */
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .social-link {
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .social-link:hover {
+            background-color: transparent;
+            color: #c2f277;
+            border-color: #c2f277;
+        }
+
+        /* Attribution */
+        .attribution {
+            color: #666;
+            font-size: 12px;
+            margin-top: 24px;
+        }
+
+        .attribution a {
+            color: #888;
+            text-decoration: none;
+        }
+
+        .attribution a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="assets\images\Me.jpg" alt="Profile photo">
+        </div>
+        
+        <h1 class="profile-name">Tehj Patel</h1>
+        <div class="profile-location">London, United Kingdom</div>
+        <p class="profile-bio">"Front-end developer and avid Kanye listener."</p>
+        
+        <div class="social-links">
+            <a href="https://github.com/t3hj" class="social-link">GitHub</a>
+            <a href="https://www.frontendmentor.io/profile/t3hj" class="social-link">Frontend Mentor</a>
+            <a href="https://www.linkedin.com/in/tehj-patel-56a5562a2/" class="social-link">LinkedIn</a>
+            <a href="https://open.spotify.com/user/c7pl1i668x2ehf0w1hyr6k9nj" class="social-link">Spotify</a>
+            <a href="https://www.instagram.com/t3hj_p" class="social-link">Instagram</a>
+        </div>
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io" target="_blank">FrontEndMentor</a>. 
+            Coded by <a href="#" target="_blank">t3hj</a>.
+        </div>
+    </div>
+</body>
+</html>
