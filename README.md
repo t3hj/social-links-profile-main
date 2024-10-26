@@ -52,28 +52,8 @@ Through this project, I reinforced my understanding of creating interactive stat
 
 Some key code snippets I'm proud of:
 
-```css
-/* Using CSS custom properties for consistent theming */
-:root {
-    --color-green: hsl(75, 94%, 57%);
-    --color-white: hsl(0, 0%, 100%);
-    --color-grey: hsl(0, 0%, 20%);
-    --color-dark-grey: hsl(0, 0%, 12%);
-    --color-off-black: hsl(0, 0%, 8%);
-}
+![image](https://github.com/user-attachments/assets/2a138062-e7a2-4f3e-9e1c-e322589720cc)
 
-/* Creating smooth hover transitions */
-.social-link {
-    transition: all 0.3s ease;
-    border: 1px solid transparent;
-}
-
-.social-link:hover {
-    background-color: transparent;
-    color: var(--color-green);
-    border-color: var(--color-green);
-}
-```
 
 ### Continued development
 
